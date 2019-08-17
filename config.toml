@@ -1,0 +1,96 @@
+baseURL = "https://kross.netlify.com"
+languageCode = "en-us"
+title = "Fahriz Coding"
+theme = "kross-hugo-portfolio-template"
+summaryLength = "10"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/shuffle/shuffle.min.js"
+
+
+# navigation
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 3
+
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  weight = 4
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
+
+
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+  # Switch to true to enable RSS icon link
+    rss = true
+
+  # Set to true to use a text label for RSS instead of an icon
+  # This is overwritten by the "rss" setting
+  textrss = false
+
+    # Website's default description
+    defaultDescription = ""
+
+    # Populate this with your own search keywords - these will appear in meta tags
+    # defaultKeywords = ["keyword1" , "keyword2" , "keyword3" , "keyword4"]
+
+  # Set to true to hide ReadingTime on posts
+  disableReadingTime = false
+
+  # Set to true to disable downloading of remote Google fonts
+  disableGoogleFonts = false
+
+  # Search engine URL
+   searchEngineURL = "https://www.google.com/search"
+   # paginate = 6
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  [params.contact]
+  enable = true
+  formAction = "#" #contact form works with formspree.io
+
+  [params.footer]
+  email = "dimasqy.fahriz@gmail.com"
+  phone = "085312858608"
+  address = "Bandung Kiara Condong Arum saru VIII"
