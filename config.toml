@@ -1,4 +1,4 @@
-baseURL = "https://kross.netlify.com"
+baseURL = https://kidto1412.github.io/blog.github-io/"
 languageCode = "en-us"
 title = "Fahriz Coding"
 theme = "kross-hugo-portfolio-template"
